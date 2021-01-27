@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 data = np.loadtxt('data.txt', delimiter=",")
 dat = data[:, 0:13]
 
-learning = np.loadtxt('data.txt', delimiter=",")
+learning = np.loadtxt('learning.txt', delimiter=",")
 lrn = learning[:, 8]
 
 # Podział i przygotowanie danych
